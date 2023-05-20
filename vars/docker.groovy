@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
-def call() {
-    echo "jasim ali khan"
+def call(String name) {
+    echo ${name}
 }
